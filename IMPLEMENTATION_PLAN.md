@@ -18,7 +18,7 @@
     - TypeScript is configured and working
   - **Files**: `app.json`, `tsconfig.json`, `package.json`, `App.tsx`
 
-- [ ] TASK-02: Set up folder list and track list screens with React Navigation
+- [x] TASK-02: Set up folder list and track list screens with React Navigation
   - **What**: Two screens — FolderListScreen and TrackListScreen — with stack navigation
   - **Acceptance criteria**:
     - App opens to FolderListScreen showing hardcoded folder names ("Test Album 1", "Test Album 2")
