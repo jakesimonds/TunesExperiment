@@ -134,7 +134,7 @@
   - **Depends**: TASK-11
   - **Files**: `src/services/playback-service.ts`, `src/services/track-player-setup.ts`
 
-- [ ] TASK-13: Handle audio focus (phone calls, other apps)
+- [x] TASK-13: Handle audio focus (phone calls, other apps)
   - **What**: Pause playback when another app takes audio focus, resume when it's released
   - **Acceptance criteria**:
     - Phone call → music pauses → call ends → music resumes
