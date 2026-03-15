@@ -1,6 +1,100 @@
 {
   "folders": [
     {
+      "name": "2013 - Modern Vampires Of The City",
+      "tracks": [
+        {
+          "filename": "01 - Obvious Bicycle.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/01 - Obvious Bicycle.mp3"
+        },
+        {
+          "filename": "02 - Unbelievers.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/02 - Unbelievers.mp3"
+        },
+        {
+          "filename": "03 - Step.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/03 - Step.mp3"
+        },
+        {
+          "filename": "04 - Diane Young.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/04 - Diane Young.mp3"
+        },
+        {
+          "filename": "05 - Don't Lie.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/05 - Don't Lie.mp3"
+        },
+        {
+          "filename": "06 - Hannah Hunt.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/06 - Hannah Hunt.mp3"
+        },
+        {
+          "filename": "07 - Everlasting Arms.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/07 - Everlasting Arms.mp3"
+        },
+        {
+          "filename": "08 - Finger Back.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/08 - Finger Back.mp3"
+        },
+        {
+          "filename": "09 - Worship You.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/09 - Worship You.mp3"
+        },
+        {
+          "filename": "10 - Ya Hey.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/10 - Ya Hey.mp3"
+        },
+        {
+          "filename": "11 - Hudson.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/11 - Hudson.mp3"
+        },
+        {
+          "filename": "12 - Young Lion.mp3",
+          "path": "library/2013 - Modern Vampires Of The City/12 - Young Lion.mp3"
+        }
+      ]
+    },
+    {
+      "name": "A Flock of Seagulls",
+      "tracks": [
+        {
+          "filename": "01 - I Ran (So Far Away).mp3",
+          "path": "library/A Flock of Seagulls/01 - I Ran (So Far Away).mp3"
+        },
+        {
+          "filename": "03 - You Can Run.mp3",
+          "path": "library/A Flock of Seagulls/03 - You Can Run.mp3"
+        },
+        {
+          "filename": "04 - Don’t Ask Me.mp3",
+          "path": "library/A Flock of Seagulls/04 - Don’t Ask Me.mp3"
+        },
+        {
+          "filename": "05 - Messages.mp3",
+          "path": "library/A Flock of Seagulls/05 - Messages.mp3"
+        },
+        {
+          "filename": "06 - Telecommunication.mp3",
+          "path": "library/A Flock of Seagulls/06 - Telecommunication.mp3"
+        },
+        {
+          "filename": "07 - Modern Love Is Automatic.mp3",
+          "path": "library/A Flock of Seagulls/07 - Modern Love Is Automatic.mp3"
+        },
+        {
+          "filename": "08 - Standing in the Doorway.mp3",
+          "path": "library/A Flock of Seagulls/08 - Standing in the Doorway.mp3"
+        },
+        {
+          "filename": "09 - D.N.A..mp3",
+          "path": "library/A Flock of Seagulls/09 - D.N.A..mp3"
+        },
+        {
+          "filename": "10 - Man Made.mp3",
+          "path": "library/A Flock of Seagulls/10 - Man Made.mp3"
+        }
+      ]
+    },
+    {
       "name": "TestAlbum1",
       "tracks": [
         {

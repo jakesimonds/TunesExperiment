@@ -14,6 +14,7 @@
     "ios": {
       "supportsTablet": true
     },
+    "newArchEnabled": false,
     "android": {
       "package": "com.jakesimonds.tunesexperiment",
       "adaptiveIcon": {

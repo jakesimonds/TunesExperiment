@@ -61,9 +61,9 @@ function writeLibraryIndex(manifest) {
 
   for (const folder of manifest.folders) {
     for (const track of folder.tracks) {
-      const key = track.path;
-      const requirePath = `../../${track.path}`;
-      lines.push(`  '${key}': require('${requirePath}'),`);
+      const escaped = track.path.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+      const escapedReq = `../../${track.path}`.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+      lines.push(`  "${escaped}": require("${escapedReq}"),`);
     }
   }
 
