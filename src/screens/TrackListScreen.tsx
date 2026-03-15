@@ -2,26 +2,22 @@ import { FlatList, Text, TouchableOpacity, StyleSheet, View } from 'react-native
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/AppNavigator';
 import { colors, spacing, typography } from '../styles/theme';
+import { getTracks } from '../data/library';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TrackList'>;
 
-const TRACKS: Record<string, string[]> = {
-  'Test Album 1': ['01 - Track One.mp3', '02 - Track Two.mp3', '03 - Track Three.mp3'],
-  'Test Album 2': ['01 - Track One.mp3', '02 - Track Two.mp3'],
-};
-
 export default function TrackListScreen({ route }: Props) {
   const { folderName } = route.params;
-  const tracks = TRACKS[folderName] ?? [];
+  const tracks = getTracks(folderName);
 
   return (
     <View style={styles.container}>
       <FlatList
         data={tracks}
-        keyExtractor={(item) => item}
+        keyExtractor={(item) => item.path}
         renderItem={({ item }) => (
           <TouchableOpacity style={styles.row}>
-            <Text style={styles.text}>{item}</Text>
+            <Text style={styles.text}>{item.filename}</Text>
           </TouchableOpacity>
         )}
       />

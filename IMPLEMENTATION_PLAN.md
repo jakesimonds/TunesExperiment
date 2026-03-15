@@ -59,7 +59,7 @@
     - Script handles .mp3 and .wav extensions
   - **Files**: `scripts/generate-manifest.js`, `src/generated/music-manifest.json`, `src/generated/library-index.ts`
 
-- [ ] TASK-06: Wire manifest into screens — show real library data
+- [x] TASK-06: Wire manifest into screens — show real library data
   - **What**: Replace hardcoded data in FolderListScreen and TrackListScreen with data from the generated manifest
   - **Acceptance criteria**:
     - FolderListScreen shows "TestAlbum1" and "TestAlbum2" (from manifest)
