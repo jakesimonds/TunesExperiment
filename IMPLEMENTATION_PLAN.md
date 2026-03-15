@@ -189,7 +189,7 @@
   - **Depends**: TASK-11
   - **Files**: `eas.json`, `app.json`
 
-- [ ] TASK-18: End-to-end build verification and generate-manifest in prebuild
+- [x] TASK-18: End-to-end build verification and generate-manifest in prebuild
   - **What**: Wire `generate-manifest.js` into the build pipeline so it runs automatically, verify full build works
   - **Acceptance criteria**:
     - Manifest generation runs as a prebuild step (npm script or expo config plugin)
