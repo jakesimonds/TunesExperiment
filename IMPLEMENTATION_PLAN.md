@@ -100,7 +100,7 @@
   - **Depends**: TASK-08
   - **Files**: `src/services/queue-manager.ts`, `src/services/playback-service.ts`
 
-- [ ] TASK-10: Loop folder when last track finishes
+- [x] TASK-10: Loop folder when last track finishes
   - **What**: After the last track in a folder finishes, loop back to the first track
   - **Acceptance criteria**:
     - Last track finishes → first track in folder plays

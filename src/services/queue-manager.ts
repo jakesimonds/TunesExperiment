@@ -18,9 +18,8 @@ export async function playTrackFromFolder(
   // Reset the queue
   await TrackPlayer.reset();
 
-  // Auto-advance through the queue; stop after the last track
-  // (TASK-10 will switch this to RepeatMode.Queue for looping)
-  await TrackPlayer.setRepeatMode(RepeatMode.Off);
+  // Loop the entire queue so the folder repeats indefinitely
+  await TrackPlayer.setRepeatMode(RepeatMode.Queue);
 
   // Build the queue from the folder's tracks
   const queue = tracks.map((track) => ({
