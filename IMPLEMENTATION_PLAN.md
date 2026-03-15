@@ -92,7 +92,7 @@
   - **Depends**: TASK-06, TASK-07
   - **Files**: `src/screens/TrackListScreen.tsx`, `src/services/queue-manager.ts`
 
-- [ ] TASK-09: Auto-advance to next track
+- [x] TASK-09: Auto-advance to next track
   - **What**: When a track finishes, automatically play the next track in the folder
   - **Acceptance criteria**:
     - Track finishes → next track in folder starts automatically
