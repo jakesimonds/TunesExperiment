@@ -157,7 +157,7 @@
   - **Depends**: TASK-08
   - **Files**: `src/components/NowPlayingBar.tsx`
 
-- [ ] TASK-15: Play/pause and skip controls in now-playing bar
+- [x] TASK-15: Play/pause and skip controls in now-playing bar
   - **What**: Add play/pause button and skip-next button to the now-playing bar
   - **Acceptance criteria**:
     - Play/Pause toggles playback state, icon updates to reflect state
