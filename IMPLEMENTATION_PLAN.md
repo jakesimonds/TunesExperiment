@@ -180,7 +180,7 @@
 
 ### 🏁 Checkpoint: APK file on Jake's phone. Music plays while running. Done.
 
-- [ ] TASK-17: Configure EAS Build for Android APK
+- [x] TASK-17: Configure EAS Build for Android APK
   - **What**: Set up `eas.json` with a preview profile that produces a sideloadable APK
   - **Acceptance criteria**:
     - `eas build --platform android --profile preview` starts a build
