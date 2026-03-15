@@ -1,0 +1,14 @@
+.env
+*.db
+.dolt-history/
+node_modules/
+dist/
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+package-lock.json
