@@ -83,7 +83,7 @@
   - **Depends**: TASK-01
   - **Files**: `package.json`, `index.js`, `src/services/playback-service.ts`, `src/services/track-player-setup.ts`
 
-- [ ] TASK-08: Play a track when tapped
+- [x] TASK-08: Play a track when tapped
   - **What**: Tapping a track in TrackListScreen loads it into track player and plays it
   - **Acceptance criteria**:
     - Tap a track → audio plays from the bundled MP3
