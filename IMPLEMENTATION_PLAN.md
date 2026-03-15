@@ -74,7 +74,7 @@
 
 ### 🏁 Checkpoint: Tap a song → it plays. Finishes → next song plays. Last song → loops to first.
 
-- [ ] TASK-07: Install and configure react-native-track-player
+- [x] TASK-07: Install and configure react-native-track-player
   - **What**: Add react-native-track-player, register playback service, basic initialization
   - **Acceptance criteria**:
     - `react-native-track-player` is installed
