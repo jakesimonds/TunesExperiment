@@ -1,6 +1,7 @@
-import { FlatList, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { FlatList, Text, TouchableOpacity, StyleSheet, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/AppNavigator';
+import { colors, spacing, typography } from '../styles/theme';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TrackList'>;
 
@@ -14,25 +15,32 @@ export default function TrackListScreen({ route }: Props) {
   const tracks = TRACKS[folderName] ?? [];
 
   return (
-    <FlatList
-      data={tracks}
-      keyExtractor={(item) => item}
-      renderItem={({ item }) => (
-        <TouchableOpacity style={styles.row}>
-          <Text style={styles.text}>{item}</Text>
-        </TouchableOpacity>
-      )}
-    />
+    <View style={styles.container}>
+      <FlatList
+        data={tracks}
+        keyExtractor={(item) => item}
+        renderItem={({ item }) => (
+          <TouchableOpacity style={styles.row}>
+            <Text style={styles.text}>{item}</Text>
+          </TouchableOpacity>
+        )}
+      />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.background,
+  },
   row: {
-    padding: 16,
+    paddingVertical: spacing.rowVertical,
+    paddingHorizontal: spacing.rowHorizontal,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: colors.border,
   },
   text: {
-    fontSize: 18,
+    ...typography.trackName,
   },
 });

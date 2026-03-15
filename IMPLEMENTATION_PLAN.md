@@ -27,7 +27,7 @@
   - **Depends**: TASK-01
   - **Files**: `src/screens/FolderListScreen.tsx`, `src/screens/TrackListScreen.tsx`, `src/navigation/AppNavigator.tsx`, `App.tsx`
 
-- [ ] TASK-03: Style screens with bare-bones UI
+- [x] TASK-03: Style screens with bare-bones UI
   - **What**: Minimal, clean styling — flat lists with clear tap targets for running (big text, easy to hit)
   - **Acceptance criteria**:
     - FolderListScreen: flat list, folder names in large readable text, full-width rows

@@ -1,6 +1,7 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import FolderListScreen from '../screens/FolderListScreen';
 import TrackListScreen from '../screens/TrackListScreen';
+import { colors } from '../styles/theme';
 
 export type RootStackParamList = {
   FolderList: undefined;
@@ -11,7 +12,13 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function AppNavigator() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: { backgroundColor: colors.surface },
+        headerTintColor: colors.text,
+        headerTitleStyle: { fontWeight: '600' },
+      }}
+    >
       <Stack.Screen
         name="FolderList"
         component={FolderListScreen}
