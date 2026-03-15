@@ -114,7 +114,7 @@
 
 ### 🏁 Checkpoint: Lock phone → music keeps playing. Notification shade has play/pause/skip.
 
-- [ ] TASK-11: Enable background audio playback
+- [x] TASK-11: Enable background audio playback
   - **What**: Configure Android foreground service so audio continues when app is backgrounded or screen is off
   - **Acceptance criteria**:
     - Press home button → music keeps playing
