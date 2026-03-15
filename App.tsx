@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { ActivityIndicator, View } from 'react-native';
 import AppNavigator from './src/navigation/AppNavigator';
+import NowPlayingBar from './src/components/NowPlayingBar';
 import { setupTrackPlayer } from './src/services/track-player-setup';
 
 export default function App() {
@@ -21,7 +22,10 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <AppNavigator />
+      <View style={{ flex: 1, backgroundColor: '#121212' }}>
+        <AppNavigator />
+        <NowPlayingBar />
+      </View>
     </NavigationContainer>
   );
 }

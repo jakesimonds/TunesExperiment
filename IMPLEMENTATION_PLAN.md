@@ -148,7 +148,7 @@
 
 ### 🏁 Checkpoint: Persistent bar at bottom shows current track. Play/pause and skip work from the bar.
 
-- [ ] TASK-14: Now-playing bar component
+- [x] TASK-14: Now-playing bar component
   - **What**: Persistent bar at the bottom of both screens showing current track info and controls
   - **Acceptance criteria**:
     - Bar appears at bottom once a track starts playing
