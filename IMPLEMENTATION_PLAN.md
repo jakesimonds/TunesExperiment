@@ -166,7 +166,7 @@
   - **Depends**: TASK-14
   - **Files**: `src/components/NowPlayingBar.tsx`
 
-- [ ] TASK-16: Highlight currently playing track in track list
+- [x] TASK-16: Highlight currently playing track in track list
   - **What**: When viewing the track list for the currently playing folder, highlight the active track
   - **Acceptance criteria**:
     - Currently playing track is visually distinct (bold, different color, or indicator)
