@@ -50,7 +50,7 @@
     - Files are valid MP3s that can be played
   - **Files**: `library/TestAlbum1/*.mp3`, `library/TestAlbum2/*.mp3`
 
-- [ ] TASK-05: Build-time script to generate music manifest
+- [x] TASK-05: Build-time script to generate music manifest
   - **What**: Node script that scans `library/`, produces a manifest JSON and a `library-index.ts` that `require()`s each audio file
   - **Acceptance criteria**:
     - `node scripts/generate-manifest.js` runs without errors

@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "name": "TestAlbum1",
+      "tracks": [
+        {
+          "filename": "01_Tone_440Hz.mp3",
+          "path": "library/TestAlbum1/01_Tone_440Hz.mp3"
+        },
+        {
+          "filename": "02_Tone_523Hz.mp3",
+          "path": "library/TestAlbum1/02_Tone_523Hz.mp3"
+        },
+        {
+          "filename": "03_Tone_659Hz.mp3",
+          "path": "library/TestAlbum1/03_Tone_659Hz.mp3"
+        }
+      ]
+    },
+    {
+      "name": "TestAlbum2",
+      "tracks": [
+        {
+          "filename": "01_Tone_784Hz.mp3",
+          "path": "library/TestAlbum2/01_Tone_784Hz.mp3"
+        },
+        {
+          "filename": "02_Tone_880Hz.mp3",
+          "path": "library/TestAlbum2/02_Tone_880Hz.mp3"
+        }
+      ]
+    }
+  ]
+}
