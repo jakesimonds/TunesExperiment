@@ -42,7 +42,7 @@
 
 ### 🏁 Checkpoint: App shows real folder names and real track names from library/ directory.
 
-- [ ] TASK-04: Create library/ directory with test MP3 fixtures
+- [x] TASK-04: Create library/ directory with test MP3 fixtures
   - **What**: Create `library/TestAlbum1/` and `library/TestAlbum2/` with short test MP3 files (generated tones, ~30 seconds each)
   - **Acceptance criteria**:
     - `library/TestAlbum1/` has 3 MP3 files
