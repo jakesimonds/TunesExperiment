@@ -123,7 +123,7 @@
   - **Depends**: TASK-08
   - **Files**: `app.json` (or `app.config.js`), Android-specific config
 
-- [ ] TASK-12: Lock screen and notification media controls
+- [x] TASK-12: Lock screen and notification media controls
   - **What**: Configure react-native-track-player notification capabilities — play/pause, skip next
   - **Acceptance criteria**:
     - Media notification appears in notification shade when playing

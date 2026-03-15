@@ -4,12 +4,8 @@ export async function PlaybackService() {
   // Remote / notification controls
   TrackPlayer.addEventListener(Event.RemotePlay, () => TrackPlayer.play());
   TrackPlayer.addEventListener(Event.RemotePause, () => TrackPlayer.pause());
-  TrackPlayer.addEventListener(Event.RemoteStop, () => TrackPlayer.stop());
   TrackPlayer.addEventListener(Event.RemoteNext, () =>
     TrackPlayer.skipToNext(),
-  );
-  TrackPlayer.addEventListener(Event.RemotePrevious, () =>
-    TrackPlayer.skipToPrevious(),
   );
 
   // Auto-advance: react-native-track-player handles moving to the

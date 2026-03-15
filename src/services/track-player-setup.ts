@@ -19,12 +19,11 @@ export async function setupTrackPlayer(): Promise<boolean> {
         appKilledPlaybackBehavior:
           AppKilledPlaybackBehavior.ContinuePlayback,
       },
+      // Notification shows: play/pause + skip next (per spec — no previous, no stop)
       capabilities: [
         Capability.Play,
         Capability.Pause,
         Capability.SkipToNext,
-        Capability.SkipToPrevious,
-        Capability.Stop,
       ],
       compactCapabilities: [
         Capability.Play,
